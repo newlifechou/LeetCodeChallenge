@@ -57,6 +57,13 @@ namespace LeetCode.Tests
 
         }
 
-
+        [TestMethod()]
+        public void LengthOfLongestSubstringTest()
+        {
+            string teststr = "abcabcbb";
+            int expect = 3;
+            int actual = new LeetCodeSolution().LengthOfLongestSubstring(teststr);
+            Assert.AreEqual(expect, actual);
+        }
     }
 }

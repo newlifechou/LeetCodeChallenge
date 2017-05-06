@@ -9,11 +9,35 @@ namespace LeetCode
 {
     public class LeetCodeSolution
     {
+        //https://leetcode.com/problems/longest-substring-without-repeating-characters
+        public int LengthOfLongestSubstring(string s)
+        {
+            //http://www.jiuzhang.com/solutions/longest-substring-without-repeating-characters/
+            int[] map = new int[256]; //map from character's ASCII to its last occured index
+            int j = 0;
+            int ans = 0;
+            for (int i = 0; i < s.Length; i++)
+            {
+                while (j < s.Length && map[s[j]] == 0)
+                {
+                    map[s[j]] = 1;
+                    ans = Math.Max(ans, j - i + 1);
+                    j++;
+                }
+                map[s[i]] = 0;
+            }
+
+            return ans;
+        }
+
+
+
+
         //https://leetcode.com/problems/add-two-numbers
         public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
             //http://www.jiuzhang.com/solutions/add-two-numbers/
-            if (l1==null&l2==null)
+            if (l1 == null & l2 == null)
             {
                 return null;
             }
@@ -21,7 +45,7 @@ namespace LeetCode
             ListNode head = new ListNode(0);
             ListNode point = head;
             int carry = 0;
-            while (l1!=null&&l2!=null)
+            while (l1 != null && l2 != null)
             {
                 int sum = carry + l1.val + l2.val;
                 point.next = new ListNode(sum % 10);
@@ -31,7 +55,7 @@ namespace LeetCode
                 point = point.next;
             }
 
-            while (l1!=null)
+            while (l1 != null)
             {
                 int sum = carry + l1.val;
                 point.next = new ListNode(sum % 10);
@@ -47,14 +71,13 @@ namespace LeetCode
                 l2 = l2.next;
                 point = point.next;
             }
-            if (carry!=0)
+            if (carry != 0)
             {
                 point.next = new ListNode(carry);
             }
 
             return head.next;
         }
-
         //https://leetcode.com/problems/two-sum
         public int[] TwoSum(int[] nums, int target)
         {
