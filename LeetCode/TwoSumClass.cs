@@ -7,24 +7,26 @@ using System.Diagnostics;
 
 namespace LeetCode
 {
-    public class TwoSumClass
+    public class LeetCodeSolution
     {
         public int[] TwoSum(int[] nums, int target)
         {
-            int[] results = new int[2] { 0, 0 };
-            int sum = 0;
-            for (int i = 0; i < nums.Count() - 1; i++)
+            //参考http://www.jiuzhang.com/solutions/two-sum/
+            int[] results = { };
+            Dictionary<int, int> dic = new Dictionary<int, int>();
+            for (int i = 0; i < nums.Count(); i++)
             {
-                for (int j = i + 1; j < nums.Count(); j++)
+                if (dic.ContainsKey(nums[i]))
                 {
-                    sum = nums[i] + nums[j];
-                    if (sum == target)
-                    {
-                        results[0] = i;
-                        results[1] = j;
-                        return results;
-                    }
+                    int[] result = { dic[nums[i]] , i  };
+                    return result;
                 }
+                //leetcode 测试代码有重复数值，所以必须判断一下
+                if (dic.ContainsKey(target - nums[i]))
+                {
+                    continue;
+                }
+                dic.Add(target - nums[i], i);
             }
             return results;
         }
