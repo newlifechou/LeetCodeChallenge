@@ -31,7 +31,24 @@ namespace Algorithm
             }
 
             return -1;
+        }
 
+        public int NormalSearch(int key, int[] arrays)
+        {
+            for (int i = 0; i < arrays.Length; i++)
+            {
+                if (key == arrays[i])
+                {
+                    return i;
+                }
+            }
+            return -1;
+        }
+
+
+        public bool ThreeNumberEqual(int number1, int number2, int number3)
+        {
+            return number1 == number2 && number1 == number3;
         }
     }
 }
