@@ -83,5 +83,18 @@ namespace LeetCode.Tests
             Assert.AreEqual(expect[1][1], -1);
             Assert.AreEqual(expect[1][2], 2);
         }
+
+        [TestMethod()]
+        public void TwoSumSortedInputTest()
+        {
+            int[] nums = { 0, 0, 3, 4 };
+            int target = 0;
+
+            int[] expect = { 1, 2 };
+            int[] result = new LeetCodeSolution().TwoSumSortedInput(nums, target);
+
+            Assert.AreEqual(expect[0], result[0]);
+            Assert.AreEqual(expect[1], result[1]);
+        }
     }
 }

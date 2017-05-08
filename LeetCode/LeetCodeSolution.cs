@@ -13,7 +13,7 @@ namespace LeetCode
         public List<List<int>> ThreeSum(int[] nums)
         {
             var results = new List<List<int>>();
-            if (nums.Length<3)
+            if (nums.Length < 3)
             {
                 return results;
             }
@@ -122,5 +122,47 @@ namespace LeetCode
             return results;
         }
 
+
+        public int[] TwoSumSortedInput(int[] nums, int target)
+        {
+            int[] result = new int[2];
+            int start = 0;
+            int end = nums.Length - 1;
+            while (start + 1 < end)
+            {
+                int middle = start + (end-start) / 2;
+                if (nums[start] + nums[end] < target)
+                {
+                    if (nums[middle] + nums[end] < target)
+                    {
+                        start = middle;
+                    }
+                    else
+                    {
+                        start++;
+                    }
+                }
+                else if (nums[start] + nums[end] > target)
+                {
+                    if (nums[start] + nums[middle] > target)
+                    {
+                        end = middle;
+                    }
+                    else
+                    {
+                        end--;
+                    }
+                }
+                else
+                {
+                    break;
+                }
+
+            }
+            result[0] = start + 1;
+            result[1] = end + 1;
+            return result;
+
+        }
     }
 }
