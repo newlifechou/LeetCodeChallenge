@@ -9,6 +9,30 @@ namespace LeetCode
 {
     public class LeetCodeSolution
     {
+        //3sum
+        public List<List<int>> ThreeSum(int[] nums)
+        {
+            var results = new List<List<int>>();
+            if (nums.Length<3)
+            {
+                return results;
+            }
+
+            for (int i = 0; i < nums.Length - 2; i++)
+            {
+                for (int j = i + 1; j < nums.Length - 1; j++)
+                {
+                    for (int k = j + 2; k < nums.Length; k++)
+                    {
+                        if (nums[i] + nums[j] + nums[k] == 0)
+                        {
+                            results.Add(new List<int> { i, j, k });
+                        }
+                    }
+                }
+            }
+            return results;
+        }
         //https://leetcode.com/problems/longest-substring-without-repeating-characters
         public int LengthOfLongestSubstring(string s)
         {
@@ -29,9 +53,6 @@ namespace LeetCode
 
             return ans;
         }
-
-
-
 
         //https://leetcode.com/problems/add-two-numbers
         public ListNode AddTwoNumbers(ListNode l1, ListNode l2)

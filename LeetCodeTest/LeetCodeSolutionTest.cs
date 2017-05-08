@@ -65,5 +65,23 @@ namespace LeetCode.Tests
             int actual = new LeetCodeSolution().LengthOfLongestSubstring(teststr);
             Assert.AreEqual(expect, actual);
         }
+
+        [TestMethod()]
+        public void ThreeSumTest()
+        {
+            int[] s = { -1, 0, 1, 2, -1, -4 };
+            List<List<int>> expect = new List<List<int>>()
+            {
+                new List<int> {  -1, 0, 1 },
+                new List<int> {  -1, -1, 2 }
+            };
+
+            Assert.AreEqual(expect[0][0], -1);
+            Assert.AreEqual(expect[0][1], 0);
+            Assert.AreEqual(expect[0][2], 1);
+            Assert.AreEqual(expect[1][0], -1);
+            Assert.AreEqual(expect[1][1], -1);
+            Assert.AreEqual(expect[1][2], 2);
+        }
     }
 }
