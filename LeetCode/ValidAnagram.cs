@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 namespace LeetCode
 {
     /// <summary>
-    /// LeeCode-242
+    /// LeetCode-242
     /// </summary>
     public class ValidAnagram
     {
         /// <summary>
-        ///基本思路
+        /// 基本思路
         /// 统计每个字符串中的字母，然后对比看包含的字母是否相等
         /// </summary>
         /// <param name="s"></param>

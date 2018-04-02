@@ -47,12 +47,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ListNode.cs" />
+    <Compile Include="MajorityElement.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="LeetCodeSolution.cs" />
     <Compile Include="ValidAnagram.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Helper\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
