@@ -11,6 +11,11 @@ namespace LeetCode
     /// </summary>
     public class MajorityElement
     {
+        /*
+         * 假设多数数字的个数大于n/2
+         */
+
+
         /// <summary>
         /// 思路1
         /// 统计法-暴力方法
