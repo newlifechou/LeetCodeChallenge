@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Basic\QuickSortSolution.cs" />
     <Compile Include="MajorityElemenSolution.cs" />
     <Compile Include="MergeSortedArraySolution.cs" />
     <Compile Include="MissingNumberSolution.cs" />
@@ -57,6 +58,7 @@
     <Compile Include="ReverseBitsSolution.cs" />
     <Compile Include="ReverseIntegerSolution.cs" />
     <Compile Include="ReverseLinkedListSolution.cs" />
+    <Compile Include="RomanToIntegerSolution.cs" />
     <Compile Include="SingleNumberSolution.cs" />
     <Compile Include="ValidAnagramSolutiond.cs" />
   </ItemGroup>

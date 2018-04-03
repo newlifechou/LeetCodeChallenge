@@ -48,12 +48,29 @@ namespace LeetCode
 
 
         /// <summary>
-        /// 
+        /// 有点像快速排序
+        /// 非零区和零区
+        /// 未知区的第一个非零元素和0区的第一个位置交换，或者是0不管
         /// </summary>
         /// <param name="nums"></param>
         public void MoveZeroes2(int[] nums)
         {
-            
+            int firstZero;
+
+            firstZero = 0;
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] != 0 && firstZero != i)
+                {
+                    int temp = nums[firstZero];
+                    nums[firstZero] = nums[i];
+                    nums[i] = temp;
+                    firstZero++;
+                }
+            }
+
+
         }
 
 
