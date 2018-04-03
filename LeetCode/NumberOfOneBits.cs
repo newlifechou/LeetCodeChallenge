@@ -55,5 +55,31 @@ namespace LeetCode
             return count;
         }
 
+        /// <summary>
+        /// 思路类似1
+        /// 分组归并
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public int HamingWeight3(uint n)
+        {
+            //定义多组要用到的掩码
+            uint m_1 = 0x55555555;
+            uint m_2 = 0x33333333;
+            uint m_4 = 0x0f0f0f0f;
+            uint m_8 = 0x00ff00ff;
+            uint m_16 = 0x0000ffff;
+
+            uint a = (n & m_1) + ((n >> 1) & m_1);
+            uint b = (a & m_2) + ((a >> 2) & m_2);
+            uint c = (b & m_4) + ((b >> 4) & m_4);
+            uint d = (c & m_8) + ((c >> 8) & m_8);
+            uint f = (d & m_16) + ((d >> 16) & m_16);
+
+            return (int)f;
+        }
+
+
+
     }
 }
