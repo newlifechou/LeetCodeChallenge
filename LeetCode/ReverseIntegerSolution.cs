@@ -9,7 +9,7 @@ namespace LeetCode
     /// <summary>
     /// leetcode-7
     /// </summary>
-    public class ReverseIntegerMethod
+    public class ReverseIntegerSolution
     {
         //假定只考虑32位符号数，溢出返回0
 

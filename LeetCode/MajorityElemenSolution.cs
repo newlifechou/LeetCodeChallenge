@@ -9,7 +9,7 @@ namespace LeetCode
     /// <summary>
     /// Leetcode-169
     /// </summary>
-    public class MajorityElementMethod
+    public class MajorityElementSolution
     {
         /*
          * 假设多数数字的个数大于n/2

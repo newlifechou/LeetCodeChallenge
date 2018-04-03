@@ -9,7 +9,7 @@ namespace LeetCode
     /// <summary>
     /// leetcode-136
     /// </summary>
-    public class SingleNumberMethod
+    public class SingleNumberSolution
     {
         /// <summary>
         /// 思路

@@ -9,7 +9,7 @@ namespace LeetCode
     /// <summary>
     /// leetcode-206
     /// </summary>
-    public class ReverseLinkedListMethod
+    public class ReverseLinkedListSolution
     {
         /// <summary>
         /// 利用三个指针改变链表方向，prev,current,next

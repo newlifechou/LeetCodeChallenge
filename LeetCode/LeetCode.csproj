@@ -46,18 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MajorityElementMethod.cs" />
-    <Compile Include="MergeSortedArrayMethod.cs" />
-    <Compile Include="MissingNumberMethod.cs" />
-    <Compile Include="NumberOfOneBitsMethod.cs" />
-    <Compile Include="PowerofTwoMethod.cs" />
+    <Compile Include="MajorityElemenSolution.cs" />
+    <Compile Include="MergeSortedArraySolution.cs" />
+    <Compile Include="MissingNumberSolution.cs" />
+    <Compile Include="MoveZerosSolution.cs" />
+    <Compile Include="NumberOfOneBitsSolution.cs" />
+    <Compile Include="PowerofTwoSolution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="LeetCodeSolution.cs" />
-    <Compile Include="ReverseBitsMethod.cs" />
-    <Compile Include="ReverseIntegerMethod.cs" />
-    <Compile Include="ReverseLinkedListMethod.cs" />
-    <Compile Include="SingleNumberMethod.cs" />
-    <Compile Include="ValidAnagramMethod.cs" />
+    <Compile Include="ReverseBitsSolution.cs" />
+    <Compile Include="ReverseIntegerSolution.cs" />
+    <Compile Include="ReverseLinkedListSolution.cs" />
+    <Compile Include="SingleNumberSolution.cs" />
+    <Compile Include="ValidAnagramSolutiond.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

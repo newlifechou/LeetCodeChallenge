@@ -9,7 +9,7 @@ namespace LeetCode
     /// <summary>
     /// leetcode-191
     /// </summary>
-    public class NumberOfOneBitsMethod
+    public class NumberOfOneBitsSolution
     {
         /// <summary>
         /// 汉明权重 一串符号中非0符号的个数
@@ -64,11 +64,11 @@ namespace LeetCode
         public int HamingWeight3(uint n)
         {
             //定义多组要用到的掩码
-            uint m_1 = 0x55555555;
-            uint m_2 = 0x33333333;
-            uint m_4 = 0x0f0f0f0f;
-            uint m_8 = 0x00ff00ff;
-            uint m_16 = 0x0000ffff;
+            uint m_1 = 0x55555555; //0101 0101 0101 0101 0101 0101 0101 0101
+            uint m_2 = 0x33333333; //0010 0010 0010 0010 0010 0010 0010 0010 
+            uint m_4 = 0x0f0f0f0f; //0000 1111 0000 1111 0000 1111 0000 1111
+            uint m_8 = 0x00ff00ff; //0000 0000 1111 1111 0000 0000 1111 1111 
+            uint m_16 = 0x0000ffff;//0000 0000 0000 0000 1111 1111 1111 1111 
 
             uint a = (n & m_1) + ((n >> 1) & m_1);
             uint b = (a & m_2) + ((a >> 2) & m_2);
