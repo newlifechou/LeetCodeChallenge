@@ -9,7 +9,7 @@ namespace LeetCode
     /// <summary>
     /// Leetcode-231
     /// </summary>
-    public class PowerofTwo
+    public class PowerofTwoMethod
     {
         /// <summary>
         /// 能否被2整除

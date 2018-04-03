@@ -9,7 +9,7 @@ namespace LeetCode
     /// <summary>
     /// leetcode-268
     /// </summary>
-    public class MissingNumber
+    public class MissingNumberMethod
     {
         /// <summary>
         /// 思路

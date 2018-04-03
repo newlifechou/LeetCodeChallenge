@@ -9,7 +9,7 @@ namespace LeetCode
     /// <summary>
     /// Leetcode-88
     /// </summary>
-    public class MergeSortedArray
+    public class MergeSortedArrayMethod
     {
         /*
          * 假设nums1的空闲空间足够大，m+n

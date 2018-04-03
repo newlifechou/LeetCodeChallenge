@@ -9,7 +9,7 @@ namespace LeetCode
     /// <summary>
     /// leetcode-191
     /// </summary>
-    public class NumberOfOneBits
+    public class NumberOfOneBitsMethod
     {
         /// <summary>
         /// 汉明权重 一串符号中非0符号的个数

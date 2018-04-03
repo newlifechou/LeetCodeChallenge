@@ -9,7 +9,7 @@ namespace LeetCode
     /// <summary>
     /// LeetCode-242
     /// </summary>
-    public class ValidAnagram
+    public class ValidAnagramMethod
     {
         /// <summary>
         /// 基本思路

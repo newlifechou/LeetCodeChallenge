@@ -46,22 +46,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MajorityElement.cs" />
-    <Compile Include="MergeSortedArray.cs" />
-    <Compile Include="MissingNumber.cs" />
-    <Compile Include="NumberOfOneBits.cs" />
-    <Compile Include="PowerofTwo.cs" />
+    <Compile Include="MajorityElementMethod.cs" />
+    <Compile Include="MergeSortedArrayMethod.cs" />
+    <Compile Include="MissingNumberMethod.cs" />
+    <Compile Include="NumberOfOneBitsMethod.cs" />
+    <Compile Include="PowerofTwoMethod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="LeetCodeSolution.cs" />
-    <Compile Include="ReverseLinkedList.cs" />
-    <Compile Include="SingleNumber.cs" />
-    <Compile Include="ValidAnagram.cs" />
+    <Compile Include="ReverseBitsMethod.cs" />
+    <Compile Include="ReverseIntegerMethod.cs" />
+    <Compile Include="ReverseLinkedListMethod.cs" />
+    <Compile Include="SingleNumberMethod.cs" />
+    <Compile Include="ValidAnagramMethod.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Helper\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="tips.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
