@@ -49,6 +49,7 @@
     <Compile Include="MajorityElement.cs" />
     <Compile Include="MergeSortedArray.cs" />
     <Compile Include="MissingNumber.cs" />
+    <Compile Include="NumberOfOneBits.cs" />
     <Compile Include="PowerofTwo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="LeetCodeSolution.cs" />
