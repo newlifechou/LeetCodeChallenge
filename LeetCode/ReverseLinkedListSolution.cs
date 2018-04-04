@@ -27,18 +27,12 @@ namespace LeetCode
             {
                 nextPointer = currentPointer.next;
                 currentPointer.next = prevPointer;
+
                 prevPointer = currentPointer;
                 currentPointer = nextPointer;
             }
             head = prevPointer;
             return head;
         }
-    }
-
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-        public ListNode(int x) { val = x; }
     }
 }
