@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helper\ListNode.cs" />
     <Compile Include="Basic\QuickSortSolution.cs" />
     <Compile Include="MajorityElemenSolution.cs" />
     <Compile Include="MergeSortedArraySolution.cs" />
@@ -57,6 +58,7 @@
     <Compile Include="LeetCodeSolution.cs" />
     <Compile Include="ReverseBitsSolution.cs" />
     <Compile Include="ReverseIntegerSolution.cs" />
+    <Compile Include="ReverseLinkedListIISolution.cs" />
     <Compile Include="ReverseLinkedListSolution.cs" />
     <Compile Include="RomanToIntegerSolution.cs" />
     <Compile Include="SingleNumberSolution.cs" />
@@ -65,9 +67,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Helper\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="tips.txt" />
   </ItemGroup>
