@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddTwoNumbersSolution.cs" />
+    <Compile Include="FourSumSolution.cs" />
     <Compile Include="Helper\ListNode.cs" />
     <Compile Include="Basic\QuickSortSolution.cs" />
     <Compile Include="MajorityElemenSolution.cs" />
