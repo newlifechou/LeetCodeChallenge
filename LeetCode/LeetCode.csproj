@@ -64,6 +64,7 @@
     <Compile Include="RomanToIntegerSolution.cs" />
     <Compile Include="SearchForARangeSolution.cs" />
     <Compile Include="SingleNumberSolution.cs" />
+    <Compile Include="ThreeSumClosestSolution.cs" />
     <Compile Include="ThreeSumSmallerSolution.cs" />
     <Compile Include="ThreeSumSolution.cs" />
     <Compile Include="TwoSumIIISolution.cs" />
