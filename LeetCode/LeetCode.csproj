@@ -64,6 +64,7 @@
     <Compile Include="RomanToIntegerSolution.cs" />
     <Compile Include="SearchForARangeSolution.cs" />
     <Compile Include="SingleNumberSolution.cs" />
+    <Compile Include="TwoSumIISolution.cs" />
     <Compile Include="TwoSumSolution.cs" />
     <Compile Include="ValidAnagramSolution.cs" />
   </ItemGroup>
