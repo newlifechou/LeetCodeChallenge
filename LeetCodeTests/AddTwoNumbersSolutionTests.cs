@@ -12,7 +12,7 @@ namespace LeetCode.Tests
     public class AddTwoNumbersSolutionTests
     {
         [TestMethod()]
-        public void ddddddddddddddddddddddddddddddddddddddddddddddddddd()
+        public void AddTwoNumbers1Test()
         {
             Assert.Fail();
         }
