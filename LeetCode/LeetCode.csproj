@@ -52,6 +52,7 @@
     <Compile Include="Basic\QuickSortSolution.cs" />
     <Compile Include="MajorityElemenSolution.cs" />
     <Compile Include="MergeSortedArraySolution.cs" />
+    <Compile Include="MIdianOfTwoSortedArraysSolution.cs" />
     <Compile Include="MissingNumberSolution.cs" />
     <Compile Include="MoveZerosSolution.cs" />
     <Compile Include="NumberOfOneBitsSolution.cs" />
