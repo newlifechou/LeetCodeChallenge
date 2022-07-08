@@ -46,6 +46,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CN\LC002.cs" />
+    <Compile Include="CN\LC015.cs" />
+    <Compile Include="CN\LC067.cs" />
+    <Compile Include="CN\LC160.cs" />
+    <Compile Include="CN\LC206.cs" />
+    <Compile Include="CN\LC258.cs" />
+    <Compile Include="CN\LC415.cs" />
+    <Compile Include="CN\LC455.cs" />
+    <Compile Include="CN\LC946.cs" />
+    <Compile Include="CN\ListNode.cs" />
+    <Compile Include="Basic\Search.cs" />
+    <Compile Include="Basic\Sort\InsertSort.cs" />
+    <Compile Include="Basic\Sort\SelectSort.cs" />
+    <Compile Include="Basic\Sort\SortExample.cs" />
+    <Compile Include="Basic\ThreeSum.cs" />
+    <Compile Include="CN\LC001.cs" />
     <Compile Include="History\AddTwoNumbersSolution.cs" />
     <Compile Include="History\FourSumSolution.cs" />
     <Compile Include="Helper\ListNode.cs" />
@@ -78,7 +94,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Basic\Search\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="tips.txt" />
   </ItemGroup>

@@ -56,6 +56,15 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="CN\LC002Tests.cs" />
+    <Compile Include="CN\LC015Tests.cs" />
+    <Compile Include="CN\LC067Tests.cs" />
+    <Compile Include="CN\LC160Tests.cs" />
+    <Compile Include="CN\LC258Tests.cs" />
+    <Compile Include="CN\LC415Tests.cs" />
+    <Compile Include="CN\LC455Tests.cs" />
+    <Compile Include="CN\SearchTests.cs" />
+    <Compile Include="CN\TwoSumTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
