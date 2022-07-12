@@ -63,6 +63,7 @@
     <Compile Include="CN\LC258Tests.cs" />
     <Compile Include="CN\LC415Tests.cs" />
     <Compile Include="CN\LC455Tests.cs" />
+    <Compile Include="CN\LC713Tests.cs" />
     <Compile Include="CN\SearchTests.cs" />
     <Compile Include="CN\TwoSumTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
