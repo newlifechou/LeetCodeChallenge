@@ -65,10 +65,16 @@
     <Compile Include="CN\LC415.cs" />
     <Compile Include="CN\LC455.cs" />
     <Compile Include="CN\LC509.cs" />
+    <Compile Include="CN\LC560.cs" />
+    <Compile Include="CN\LC689.cs" />
     <Compile Include="CN\LC698.cs" />
     <Compile Include="CN\LC713.cs" />
+    <Compile Include="CN\LC718.cs" />
+    <Compile Include="CN\LC792.cs" />
+    <Compile Include="CN\LC795.cs" />
     <Compile Include="CN\LC894.cs" />
     <Compile Include="CN\LC946.cs" />
+    <Compile Include="CN\LC974.cs" />
     <Compile Include="CN\ListNode.cs" />
     <Compile Include="Basic\Search.cs" />
     <Compile Include="Basic\Sort\InsertSort.cs" />
