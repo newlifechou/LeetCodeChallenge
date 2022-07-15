@@ -10,21 +10,40 @@ namespace LeetCode.CN
     {
         /// <summary>
         /// 子数组的最小之和
+        /// 单调栈+动态规划
         /// </summary>
         /// <param name="arr"></param>
         /// <returns></returns>
         public int SumSubarrayMins(int[] arr)
         {
-            if (arr = null || arr.Length == 0)
-                return 0;
+            //单调栈
+            Stack<int> stack = new Stack<int>();
+            //记录动态规划结果
+            int[] dp = new int[arr.Length + 1];
+            //设置标志
+            stack.Push(-1);
+            //M取模防止溢出
+            int result = 0, M = (int)1e9 + 7;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                //判断单调
+                while (stack.Peek() != -1 &&
+                    arr[i] <= arr[stack.Peek()])
+                {
+                    stack.Pop();
+                }
+                dp[i + 1] = (dp[stack.Peek() + 1] + 
+                    (i - stack.Peek()) * arr[i]) % M;
+                stack.Push(i);
 
-            long res = 0;
-            long mod = 1000_000_007;
+                result += dp[i + 1];
+                result %= M;
+            }
 
 
 
-            return 0;
 
+            return result;
         }
 
         /// <summary>

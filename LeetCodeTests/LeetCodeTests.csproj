@@ -58,14 +58,17 @@
   <ItemGroup>
     <Compile Include="CN\LC002Tests.cs" />
     <Compile Include="CN\LC015Tests.cs" />
+    <Compile Include="CN\LC020Tests.cs" />
     <Compile Include="CN\LC067Tests.cs" />
     <Compile Include="CN\LC160Tests.cs" />
     <Compile Include="CN\LC258Tests.cs" />
     <Compile Include="CN\LC415Tests.cs" />
     <Compile Include="CN\LC455Tests.cs" />
+    <Compile Include="CN\LC456Tests.cs" />
     <Compile Include="CN\LC560Tests.cs" />
     <Compile Include="CN\LC713Tests.cs" />
     <Compile Include="CN\LC718Tests.cs" />
+    <Compile Include="CN\LC739Tests.cs" />
     <Compile Include="CN\LC792Tests.cs" />
     <Compile Include="CN\LC795Tests.cs" />
     <Compile Include="CN\LC907Tests.cs" />
