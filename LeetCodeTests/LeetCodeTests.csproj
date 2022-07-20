@@ -57,12 +57,17 @@
   </Choose>
   <ItemGroup>
     <Compile Include="CN\LC002Tests.cs" />
+    <Compile Include="CN\LC004Tests.cs" />
     <Compile Include="CN\LC015Tests.cs" />
+    <Compile Include="CN\LC018Tests.cs" />
     <Compile Include="CN\LC020Tests.cs" />
+    <Compile Include="CN\LC035Tests.cs" />
     <Compile Include="CN\LC067Tests.cs" />
     <Compile Include="CN\LC160Tests.cs" />
+    <Compile Include="CN\LC199Tests.cs" />
     <Compile Include="CN\LC258Tests.cs" />
     <Compile Include="CN\LC415Tests.cs" />
+    <Compile Include="CN\LC452Tests.cs" />
     <Compile Include="CN\LC455Tests.cs" />
     <Compile Include="CN\LC456Tests.cs" />
     <Compile Include="CN\LC560Tests.cs" />

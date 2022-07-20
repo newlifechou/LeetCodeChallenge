@@ -31,25 +31,25 @@ namespace LeetCode.CN
     {
 
 
-        public MyHashSet1()
-        {
+        //public MyHashSet1()
+        //{
 
-        }
+        //}
 
-        public void Add(int key)
-        {
+        //public void Add(int key)
+        //{
 
-        }
+        //}
 
-        public void Remove(int key)
-        {
+        //public void Remove(int key)
+        //{
 
-        }
+        //}
 
-        public bool Contains(int key)
-        {
+        //public bool Contains(int key)
+        //{
 
-        }
+        //}
     }
 
     /// <summary>
@@ -83,25 +83,25 @@ namespace LeetCode.CN
     public class MyHashSet3
     {
 
-        public MyHashSet3()
-        {
+        //public MyHashSet3()
+        //{
 
-        }
+        //}
 
-        public void Add(int key)
-        {
+        //public void Add(int key)
+        //{
 
-        }
+        //}
 
-        public void Remove(int key)
-        {
+        //public void Remove(int key)
+        //{
 
-        }
+        //}
 
-        public bool Contains(int key)
-        {
+        //public bool Contains(int key)
+        //{
 
-        }
+        //}
     }
 
 }
