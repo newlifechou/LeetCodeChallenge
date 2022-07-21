@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="CN\LC002Tests.cs" />
     <Compile Include="CN\LC004Tests.cs" />
+    <Compile Include="CN\LC008Tests.cs" />
     <Compile Include="CN\LC015Tests.cs" />
     <Compile Include="CN\LC018Tests.cs" />
     <Compile Include="CN\LC020Tests.cs" />
