@@ -37,7 +37,7 @@ namespace LeetCode.CN
         /// <param name="haystack"></param>
         /// <param name="needle"></param>
         /// <returns></returns>
-        public int StrStr(string haystack, string needle)
+        public int StrStr2(string haystack, string needle)
         {
             if (needle.Length == 0)
                 return 0;

@@ -30,13 +30,13 @@ namespace LeetCode.CN
 
         public int ClimbStairs2(int n)
         {
-
+            return 0;
         }
 
 
         public int ClimbStairs3(int n)
         {
-
+            return 0;
         }
     }
 }

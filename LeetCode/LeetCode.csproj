@@ -66,7 +66,9 @@
     <Compile Include="CN\LC020.cs" />
     <Compile Include="CN\LC021.cs" />
     <Compile Include="CN\LC022.cs" />
+    <Compile Include="CN\LC023.cs" />
     <Compile Include="CN\LC024.cs" />
+    <Compile Include="CN\LC025.cs" />
     <Compile Include="CN\LC026.cs" />
     <Compile Include="CN\LC027.cs" />
     <Compile Include="CN\LC028.cs" />

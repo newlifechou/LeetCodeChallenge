@@ -62,6 +62,7 @@
     <Compile Include="CN\LC015Tests.cs" />
     <Compile Include="CN\LC018Tests.cs" />
     <Compile Include="CN\LC020Tests.cs" />
+    <Compile Include="CN\LC023Tests.cs" />
     <Compile Include="CN\LC035Tests.cs" />
     <Compile Include="CN\LC067Tests.cs" />
     <Compile Include="CN\LC160Tests.cs" />
