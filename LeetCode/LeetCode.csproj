@@ -106,6 +106,7 @@
     <Compile Include="CN\LC125.cs" />
     <Compile Include="CN\LC128.cs" />
     <Compile Include="CN\LC132.cs" />
+    <Compile Include="CN\LC1331.cs" />
     <Compile Include="CN\LC136.cs" />
     <Compile Include="CN\LC137.cs" />
     <Compile Include="CN\LC144.cs" />
@@ -115,6 +116,7 @@
     <Compile Include="CN\LC160.cs" />
     <Compile Include="CN\LC187.cs" />
     <Compile Include="CN\LC198.cs" />
+    <Compile Include="CN\LC1984.cs" />
     <Compile Include="CN\LC199.cs" />
     <Compile Include="CN\LC203.cs" />
     <Compile Include="CN\LC206.cs" />
@@ -173,8 +175,10 @@
     <Compile Include="History\MoveZerosSolution.cs" />
     <Compile Include="History\NumberOfOneBitsSolution.cs" />
     <Compile Include="History\PowerofTwoSolution.cs" />
+    <Compile Include="JZ\JZ030.cs" />
     <Compile Include="LeetCodeExample.cs" />
     <Compile Include="MST\MST0302.cs" />
+    <Compile Include="MST\MST0304.cs" />
     <Compile Include="MST\MST0806.cs" />
     <Compile Include="MST\MST0812.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
