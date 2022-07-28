@@ -175,7 +175,9 @@
     <Compile Include="History\MoveZerosSolution.cs" />
     <Compile Include="History\NumberOfOneBitsSolution.cs" />
     <Compile Include="History\PowerofTwoSolution.cs" />
+    <Compile Include="JZ\JZ009.cs" />
     <Compile Include="JZ\JZ030.cs" />
+    <Compile Include="JZ\JZ040.cs" />
     <Compile Include="LeetCodeExample.cs" />
     <Compile Include="MST\MST0302.cs" />
     <Compile Include="MST\MST0304.cs" />
