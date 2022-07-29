@@ -54,5 +54,18 @@ namespace LeetCode.MST
             Move(n - 1, B, A, C);
         }
 
+
+        /// <summary>
+        /// 利用stack
+        /// </summary>
+        /// <param name="A"></param>
+        /// <param name="B"></param>
+        /// <param name="C"></param>
+        public void Hanota2(IList<int> A,IList<int> B,IList<int> C)
+        {
+
+        }
+
+
     }
 }

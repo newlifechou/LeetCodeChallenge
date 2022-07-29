@@ -109,11 +109,14 @@
     <Compile Include="CN\LC1331.cs" />
     <Compile Include="CN\LC136.cs" />
     <Compile Include="CN\LC137.cs" />
+    <Compile Include="CN\LC141.cs" />
     <Compile Include="CN\LC144.cs" />
     <Compile Include="CN\LC145.cs" />
     <Compile Include="CN\LC151.cs" />
     <Compile Include="CN\LC152.cs" />
     <Compile Include="CN\LC160.cs" />
+    <Compile Include="CN\LC168.cs" />
+    <Compile Include="CN\LC169.cs" />
     <Compile Include="CN\LC187.cs" />
     <Compile Include="CN\LC198.cs" />
     <Compile Include="CN\LC1984.cs" />
@@ -139,6 +142,7 @@
     <Compile Include="CN\LC496.cs" />
     <Compile Include="CN\LC509.cs" />
     <Compile Include="CN\LC560.cs" />
+    <Compile Include="CN\LC593.cs" />
     <Compile Include="CN\LC622.cs" />
     <Compile Include="CN\LC641.cs" />
     <Compile Include="CN\LC689.cs" />
@@ -177,10 +181,13 @@
     <Compile Include="History\PowerofTwoSolution.cs" />
     <Compile Include="JZ\JZ009.cs" />
     <Compile Include="JZ\JZ030.cs" />
+    <Compile Include="JZ\JZ031.cs" />
     <Compile Include="JZ\JZ040.cs" />
     <Compile Include="LeetCodeExample.cs" />
     <Compile Include="MST\MST0302.cs" />
     <Compile Include="MST\MST0304.cs" />
+    <Compile Include="MST\MST0305.cs" />
+    <Compile Include="MST\MST0306.cs" />
     <Compile Include="MST\MST0806.cs" />
     <Compile Include="MST\MST0812.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
