@@ -106,6 +106,8 @@
     <Compile Include="CN\LC104.cs" />
     <Compile Include="CN\LC108.cs" />
     <Compile Include="CN\LC111.cs" />
+    <Compile Include="CN\LC112.cs" />
+    <Compile Include="CN\LC113.cs" />
     <Compile Include="CN\LC118.cs" />
     <Compile Include="CN\LC119.cs" />
     <Compile Include="CN\LC121.cs" />
