@@ -97,9 +97,15 @@
     <Compile Include="CN\LC002.cs" />
     <Compile Include="CN\LC015.cs" />
     <Compile Include="CN\LC067.cs" />
+    <Compile Include="CN\LC095.cs" />
+    <Compile Include="CN\LC096.cs" />
+    <Compile Include="CN\LC098.cs" />
     <Compile Include="CN\LC100.cs" />
     <Compile Include="CN\LC101.cs" />
+    <Compile Include="CN\LC102.cs" />
     <Compile Include="CN\LC104.cs" />
+    <Compile Include="CN\LC108.cs" />
+    <Compile Include="CN\LC111.cs" />
     <Compile Include="CN\LC118.cs" />
     <Compile Include="CN\LC119.cs" />
     <Compile Include="CN\LC121.cs" />
