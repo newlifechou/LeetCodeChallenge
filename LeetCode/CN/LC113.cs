@@ -57,7 +57,7 @@ namespace LeetCode.CN
         public IList<IList<int>> PathSum2(TreeNode root, int targetSum)
         {
             if (root == null)
-                return;
+                return null;
             Queue<TreeNode> qNode = new Queue<TreeNode>();
             Queue<int> qSum = new Queue<int>();
             qNode.Enqueue(root);
