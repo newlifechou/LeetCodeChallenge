@@ -120,6 +120,7 @@
     <Compile Include="CN\LC136.cs" />
     <Compile Include="CN\LC137.cs" />
     <Compile Include="CN\LC1374.cs" />
+    <Compile Include="CN\LC1408.cs" />
     <Compile Include="CN\LC141.cs" />
     <Compile Include="CN\LC144.cs" />
     <Compile Include="CN\LC145.cs" />
@@ -143,6 +144,8 @@
     <Compile Include="CN\LC219.cs" />
     <Compile Include="CN\LC220.cs" />
     <Compile Include="CN\LC225.cs" />
+    <Compile Include="CN\LC226.cs" />
+    <Compile Include="CN\LC228.cs" />
     <Compile Include="CN\LC231.cs" />
     <Compile Include="CN\LC232.cs" />
     <Compile Include="CN\LC234.cs" />
