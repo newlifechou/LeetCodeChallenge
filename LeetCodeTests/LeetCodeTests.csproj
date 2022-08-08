@@ -71,9 +71,9 @@
     <Compile Include="CN\LC171Tests.cs" />
     <Compile Include="CN\LC199Tests.cs" />
     <Compile Include="CN\LC220Tests.cs" />
+    <Compile Include="CN\LC242Tests.cs" />
     <Compile Include="CN\LC258Tests.cs" />
     <Compile Include="CN\LC290Tests.cs" />
-    <Compile Include="CN\LC414Tests.cs" />
     <Compile Include="CN\LC415Tests.cs" />
     <Compile Include="CN\LC452Tests.cs" />
     <Compile Include="CN\LC455Tests.cs" />
