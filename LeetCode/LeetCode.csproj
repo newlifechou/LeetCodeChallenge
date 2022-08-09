@@ -109,6 +109,7 @@
     <Compile Include="CN\LC111.cs" />
     <Compile Include="CN\LC112.cs" />
     <Compile Include="CN\LC113.cs" />
+    <Compile Include="CN\LC1137.cs" />
     <Compile Include="CN\LC118.cs" />
     <Compile Include="CN\LC119.cs" />
     <Compile Include="CN\LC121.cs" />
@@ -121,6 +122,7 @@
     <Compile Include="CN\LC137.cs" />
     <Compile Include="CN\LC1374.cs" />
     <Compile Include="CN\LC141.cs" />
+    <Compile Include="CN\LC1413.cs" />
     <Compile Include="CN\LC144.cs" />
     <Compile Include="CN\LC145.cs" />
     <Compile Include="CN\LC151.cs" />
@@ -156,7 +158,10 @@
     <Compile Include="CN\LC278.cs" />
     <Compile Include="CN\LC283.cs" />
     <Compile Include="CN\LC290.cs" />
+    <Compile Include="CN\LC292.cs" />
+    <Compile Include="CN\LC303.cs" />
     <Compile Include="CN\LC322.cs" />
+    <Compile Include="CN\LC326.cs" />
     <Compile Include="CN\LC338.cs" />
     <Compile Include="CN\LC342.cs" />
     <Compile Include="CN\LC344.cs" />
