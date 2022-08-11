@@ -78,7 +78,7 @@ namespace LeetCode.CN
 
                     if (node.right != null)
                     {
-                        qNode.Dequeue(node.right);
+                        qNode.Enqueue(node.right);
                         qPath.Enqueue(new StringBuilder(path).Append("->").Append(node.right.val).ToString());
                     }
                 }
