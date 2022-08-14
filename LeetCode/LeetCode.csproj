@@ -75,6 +75,7 @@
     <Compile Include="CN\LC029.cs" />
     <Compile Include="CN\LC030.cs" />
     <Compile Include="CN\LC031.cs" />
+    <Compile Include="CN\LC032.cs" />
     <Compile Include="CN\LC033.cs" />
     <Compile Include="CN\LC034.cs" />
     <Compile Include="CN\LC035.cs" />
@@ -195,6 +196,8 @@
     <Compile Include="CN\LC713.cs" />
     <Compile Include="CN\LC718.cs" />
     <Compile Include="CN\LC739.cs" />
+    <Compile Include="CN\LC768.cs" />
+    <Compile Include="CN\LC769.cs" />
     <Compile Include="CN\LC792.cs" />
     <Compile Include="CN\LC795.cs" />
     <Compile Include="CN\LC894.cs" />
