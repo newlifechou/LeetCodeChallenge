@@ -35,7 +35,7 @@ namespace LeetCode.CN
         {
             //数组大小是给定大小+1，因为rear所指向的位置始终是空的
             capacity = k + 1;
-            queue = new int[k];
+            queue = new int[k+1];
             front = rear = 0;
         }
 
