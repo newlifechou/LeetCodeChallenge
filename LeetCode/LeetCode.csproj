@@ -131,6 +131,7 @@
     <Compile Include="CN\LC151.cs" />
     <Compile Include="CN\LC152.cs" />
     <Compile Include="CN\LC160.cs" />
+    <Compile Include="CN\LC1656.cs" />
     <Compile Include="CN\LC168.cs" />
     <Compile Include="CN\LC169.cs" />
     <Compile Include="CN\LC171.cs" />
@@ -168,6 +169,7 @@
     <Compile Include="CN\LC338.cs" />
     <Compile Include="CN\LC342.cs" />
     <Compile Include="CN\LC344.cs" />
+    <Compile Include="CN\LC345.cs" />
     <Compile Include="CN\LC389.cs" />
     <Compile Include="CN\LC415.cs" />
     <Compile Include="CN\LC424.cs" />
